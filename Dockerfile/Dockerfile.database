@@ -1,0 +1,5 @@
+# Utiliza la imagen de mysql
+FROM mysql:8.0
+
+# Nombre del contenedor
+LABEL "service"="database"
