@@ -16,3 +16,7 @@ Puedes verificar que los servicios estén en ejecución utilizando el siguiente 
 
 docker-compose ps
 Esto mostrará el estado de los servicios definidos en tu archivo docker-compose.yml.
+
+#IMPORTATE en caso de no conectar labase de datos en el index
+docker inspect key_del_mysql
+Copiar IPAddress y pegar en el index.php $servername = "IPAddress";

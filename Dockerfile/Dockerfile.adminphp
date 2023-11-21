@@ -1,5 +1,0 @@
-# Utiliza la imagen de phpmyadmin
-FROM phpmyadmin:5
-
-# Nombre del contenedor
-LABEL "service"="adminphp"

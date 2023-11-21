@@ -1,8 +1,0 @@
-# Utilizo la imagen de php
-FROM php:8-apache
-
-# Instalo los drivers de php
-RUN docker-php-ext-install pdo pdo_mysql && docker-php-ext-enable pdo_mysql
-
-# Nombre del contenedor
-LABEL "service"="web"
