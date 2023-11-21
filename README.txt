@@ -1,5 +1,6 @@
 # jorejuexamdaw
 # Descarga el proyecto .Zip
+
 # Ubícate en el directorio del proyecto:
 Abre una terminal y navega al directorio donde se encuentra tu archivo docker-compose.yml.
 cd ruta/del/proyecto/con/el/archivo/docker-compose
