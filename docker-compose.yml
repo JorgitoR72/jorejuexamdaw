@@ -39,6 +39,7 @@ services:
     ports:
       - "8000:80"
     environment:
+      PMA_HOST: database
       MYSQL_USER: joreju
       MYSQL_PASSWORD: mypassword
       MYSQL_ROOT_PASSWORD: myrootpassword
